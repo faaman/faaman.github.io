@@ -1,8 +1,8 @@
 
      @font-face {
 	 font-family: "Emblema One";
-	 src: url("https://github.com/faaman/faaman.github.io/blob/main/fonts/EmblemaOne-Regular.woff"),
-	      url("https://github.com/faaman/faaman.github.io/blob/main/fonts/EmblemaOne-Regular.ttf");
+	 src: url("fonts/EmblemaOne-Regular.woff"),
+	      url("fonts/EmblemaOne-Regular.ttf");
      }
      
       h1, h2 {
