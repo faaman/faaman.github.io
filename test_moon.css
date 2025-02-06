@@ -1,0 +1,37 @@
+
+      h1, h2 {
+	  color: gray;
+      }
+      h1 {
+	  border-bottom: 1px solid black;
+      }
+      body {
+	  background-color: #d2b48c;
+	  margin-left: 20%;
+	  margin-right: 20%;
+	  border: 2px dotted black;
+	  padding: 10px 10px 10px 10px;
+	  font-family: sans-serif;
+      }
+      body.tech_used {
+	  background-color: #eaf3da;
+      }
+      
+      em {
+	  font-family: serif;
+      }
+      p {
+	  color: maroon;
+      }
+      p.t_automation {
+	  color: green;
+      }
+      p.p_isolate {
+	  color: blue;
+      }
+      blockquote.cozy {
+	  color: purple;
+      }
+      
+
+
