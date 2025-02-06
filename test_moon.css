@@ -1,9 +1,16 @@
 
+     @font-face {
+	 font-family: "Emblema One";
+	 src: url("https://github.com/faaman/faaman.github.io/blob/main/fonts/EmblemaOne-Regular.woff"),
+	      url("https://github.com/faaman/faaman.github.io/blob/main/fonts/EmblemaOne-Regular.ttf");
+     }
+     
       h1, h2 {
 	  color: gray;
       }
       h1 {
 	  border-bottom: 1px solid black;
+	  font-family: "Emblema One", sans-serif;
       }
       body {
 	  background-color: #d2b48c;
@@ -11,7 +18,7 @@
 	  margin-right: 20%;
 	  border: 2px dotted black;
 	  padding: 10px 10px 10px 10px;
-	  font-family: sans-serif;
+	  font-family: Verdana, Geneva, Arial, sans-serif;
       }
       body.tech_used {
 	  background-color: #eaf3da;
