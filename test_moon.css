@@ -6,11 +6,16 @@
      }
      
       h1, h2 {
-	  color: gray;
+	  color: #007e7e;
       }
       h1 {
 	  border-bottom: 1px solid black;
 	  font-family: "Emblema One";
+	  font-size: 200%;
+	  color: grey;
+      }
+      h2 {
+	  font-size: 130%;
       }
       body {
 	  background-color: #d2b48c;
@@ -18,7 +23,9 @@
 	  margin-right: 20%;
 	  border: 2px dotted black;
 	  padding: 10px 10px 10px 10px;
-	  font-family: Verdana, Geneva, Arial, sans-serif;
+	  font-size: small;
+	  font-family: Verdana, Helvetica, Arial, sans-serif;
+	  line-height: 1.6em;
       }
       body.tech_used {
 	  background-color: #eaf3da;
@@ -39,6 +46,23 @@
       blockquote.cozy {
 	  color: purple;
       }
-      
+      .testing{
+	  border-color: black;
+	  border-width: 1px;
+	  border-style: dashed;
+	  border-color: white; 
+	  background-color: #a7cece;
+	  padding: 25px;
+	  padding-left: 80px;
+	  margin: 30px;
+	  margin-right: 50px;
+	  line-height: 1.9em;
+	  font-style: italic;
+	  color: #444444;
+ 	  font-family: Georgia, "Times New Roman", Times, serif;
+	  background-image: url(images/star_background.gif);
+	  background-repeat: no-repeat;
+	  background-position: top left;
+      }
 
 
