@@ -6,23 +6,26 @@
      }
      
       h1, h2 {
-	  color: black;
+	  color: #007e7e;
       }
       h1 {
 	  border-bottom: 1px solid black;
 	  font-family: "Emblema One";
-	  font-size: 150%;
+	  font-size: 200%;
 	  color: grey;
       }
       h2 {
 	  font-size: 130%;
       }
       body {
-	    font-size: 12pt;
-	    font-family: Times, "Times New Roman", serif;
-	    line-height: 1.4em;
-	    margin: 10px 40px 10px 40px;
-	    width: 700px;
+	  background-color: #d2b48c;
+	  margin-left: 20%;
+	  margin-right: 20%;
+	  border: 2px dotted black;
+	  padding: 10px 10px 10px 10px;
+	  font-size: small;
+	  font-family: Verdana, Helvetica, Arial, sans-serif;
+	  line-height: 1.6em;
       }
       body.tech_used {
 	  background-color: #eaf3da;
@@ -44,32 +47,29 @@
 	  color: purple;
       }
       #testing{
-	  /*border-color: black;
+	  border-color: black;
 	  border-width: 1px;
 	  border-style: dashed;
 	  border-color: white; 
 	  background-color: #a7cece;
+	  padding: 25px;
 	  padding-left: 80px;
 	  margin: 30px;
+	  margin-right: 50px;
+	  line-height: 1.9em;
+	  font-style: italic;
+	  color: #444444;
+ 	  font-family: Georgia, "Times New Roman", Times, serif;
 	  background-image: url(images/star_background.gif);
 	  background-repeat: no-repeat;
-	  background-position: top left;*/
-	  padding: 25px 25px 25px 25px;
-	  border: thin solid black;
-	  margin-right: 240px;
-	  margin-left: 30px;
-	  line-height: 1.5em;
-	  font-style: italic;
-	  font-family: Georgia, "Times New Roman", Times, serif;
-	  color: #222222;
+	  background-position: top left;
       }
       #footer {
-	  font-size: 50%;
+	  font-size: 70%;
 	  text-align: center;
 	  line-height: normal;
 	  margin-top: 30px;
       }
-
 
 
 

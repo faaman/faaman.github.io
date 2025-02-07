@@ -47,10 +47,13 @@
 	  color: purple;
       }
       #testing{
-	  border-color: black;
 	  border-width: 1px;
 	  border-style: dashed;
-	  border-color: white; 
+	  border-color: white;
+	  border-top-left-radius: 40px;
+	  border-top-right-radius: 40px;
+	  border-bottom-right-radius: 40px;
+	  border-bottom-left-radius: 40px;
 	  background-color: #a7cece;
 	  padding: 25px;
 	  padding-left: 80px;
@@ -69,6 +72,35 @@
 	  text-align: center;
 	  line-height: normal;
 	  margin-top: 30px;
+      }
+      #work_life_posts{
+	  border-width: thin;
+	  border-style: solid;
+	  border-color: #007e7e;
+	  width: 700px;
+
+	  /*padding-right: 20px;
+	  padding-bottom: 20px;
+	  padding-left: 20px;
+	  padding: 0px 20px 20px 20px;*/
+	  padding: 20px;
+
+	  margin-left: 20px;
+	  text-align: left;
+
+	  line-height: 1;
+      }
+      #work_life_posts h2{
+	  color: black;
+      }
+      #work_life_posts h3{
+	  color: #d12c47;
+      }
+      .tool {
+	  font-weight: bold;
+      }
+      .usage {
+	  font-style: italic;
       }
 
 
