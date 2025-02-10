@@ -7,29 +7,34 @@
   </head> 
 
   <body>
-    <header>
+    <div id="header">
       <img id="headerLogo"
            src="images/pencil_bkg.jpeg" alt="Test Moonlighter header image" height="108" width="800">
 
-    </header>
+    </div>
 <h1>TOOLS &amp; TECHNOLOGIES</h1>
 
 	<div id="tableContainer">
 	<div id="tableRow">
-	<section id="previous_tech">
-		<h2>LANGUAGES</h2>
-			<p>Javascript</p>
-			<p>Python</p>
-			<p>JSON</p>
-			<p>C</p>
-		<h2>BACK-END DEBUGGING</h2>
-			<p>Putty</p>
-			<p>Microsoft Terminal Services Client</p>
-			<p>Fiddler</p>
-			<p>Charles</p>
-			<p>Altova XMLSpy</p>
-	</section>
-    <section id="main">
+	<div id="drinks">
+		<h2>BEVERAGES</h2>
+			<p>House Blend, $1.49</p>
+			<p>Mocha Cafe Latte, $2.35</p>
+			<p>Cappuccino, $1.89</p>
+			<p>Chai Tea, $1.85</p>
+		<h2>ELIXIRS</h2>
+			<p>
+				We proudly serve elixirs brewed by our friends
+				at the Head First Lounge.
+			</p>
+			<p>Green Tea Cooler, $2.99</p>
+			<p>Raspberry Ice Concentration, $2.99</p>
+			<p>Blueberry Bliss Elixir, $2.99</p>
+			<p>Cranberry Antioxidant Blast, $2.99</p>
+			<p>Chai Chiller, $2.99</p>
+			<p>Black Brain Brew, $2.99</p>
+	</div>
+    <div id="main">
       <h2>CURRENTLY LEARNING AND USING</h2>
 <ul>
   <li><span class="tool">Head First HTML and CSS</span>, <span class="usage">at the moment all the html and css that you see on my pages are from coding along this book. I won't lie and say that I love all the color combinations going on, but better times will surely come soon.</span></li>
@@ -38,9 +43,9 @@
 </ul>
 
 
-    </section>
+    </div>
 
-    <aside>
+    <div id="sidebar">
       <p class="automationheading">
         <h2>TEST AUTOMATION SKILLS</h2>
       </p>
@@ -54,21 +59,17 @@
 <li>I have used the above run results to triage test automation failures, and to identify possible defects in the actual development code. Also used Linux system logs for the same.</li>
 <li>Used Github and the Git command line</li>
       </ul>
-    </aside> <!-- sidebar -->
+    </div> <!-- sidebar -->
 	</div> <!-- tableRow -->
 	</div> <!-- tableContainer -->
 <p>Go back to the <a href="index.html#programming" title="Link to Homepage">homepage</a>.</p>
-<div id="transform">
-<a href="transformers.html" title="Click here to go to a post that references transformers">
-<img src="images/transformers_draw.jpg" alt="A drawing of transformers I did">
-</a>
-</div>
-    <footer>
+
+    <div id="footer">
       &copy; 2025, Test Moonlighter
       <br>
       All trademarks and registered trademarks appearing on 
       this site are the property of their respective owners.
-    </footer>
+    </div>
 
   </body>
 </html>

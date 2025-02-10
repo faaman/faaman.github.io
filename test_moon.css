@@ -9,22 +9,24 @@
 	  color: #007e7e;
       }
       h1 {
-	  border-bottom: 1px solid black;
+	 /* border-bottom: 1px solid black;*/
 	  font-family: "Emblema One";
 	  font-size: 200%;
 	  color: grey;
+	  text-align:center
       }
       h2 {
 	  font-size: 130%;
       }
       body {
 	  background-color: #d2b48c;
-	  margin-left: 20%;
-	  margin-right: 20%;
-	  border: 2px dotted black;
+	  /*margin-left: 20%;
+	  margin-right: 20%;*/
+	  margin: 0px;
+	  /*border: 2px dotted black;*/
 	  padding: 10px 10px 10px 10px;
 	  font-size: small;
-	  font-family: Verdana, Helvetica, Arial, sans-serif;
+	  font-family: Georgia, "Times New Roman", Times, serif;
 	  line-height: 1.6em;
       }
       body.tech_used {
@@ -67,7 +69,7 @@
 	  background-repeat: no-repeat;
 	  background-position: top left;
       }
-      #work_life_posts{
+    /*  #work_life_posts{
 	  border-width: thin;
 	  border-style: solid;
 	  border-color: #007e7e;
@@ -84,7 +86,7 @@
 
 	  line-height: 1;
 	  
-      }
+      }*/
       #work_life_posts h2{
 	  color: black;
       }
@@ -103,7 +105,7 @@
 	  color: #0d5353;
       }
 
-      #sidebar {
+     aside {
 	  display: table-cell;
 	  background:       #efe5d0 url(images/background.gif) bottom right;
 	  font-size:        105%;
@@ -111,15 +113,7 @@
 	  vertical-align: top;
       }
       
-      #footer {
-	  background-color: #675c47;
-	  color: #efe5d0;
-	  text-align: center;
-	  padding: 15px;
-	  margin: 10px;
-	  font-size: 90%;
-	  clear: right;
-      }
+
       .automationheading {
   text-align:       center;
   line-height:      1.8em;
@@ -144,7 +138,7 @@ a:visited {
 	display: table-row;
 }
 
-#header {
+header {
 	/*background-color: #675c47;*/
 	margin: 10px 10px 0px 10px;
 	height:           108px;
@@ -153,7 +147,7 @@ a:visited {
 #header img#headerSlogan {
 	float: right;
 }*/
-#drinks {
+section#previous_tech {
     display: table-cell;
     background-color: #efe5d0;
     width: 20%;
@@ -161,10 +155,56 @@ a:visited {
     vertical-align: top;
 }
 
-#main {
+section#main section, #work_life_posts{
   display: table-cell;
   background:       #efe5d0 url(images/background.gif) top left;
   font-size:        105%;
   padding:          15px;
   vertical-align: top;
+}
+
+      footer {
+	  background-color: #675c47;
+	  color: #efe5d0;
+	  text-align: center;
+	  padding: 15px;
+	  margin: 10px;
+	  font-size: 90%;
+	  clear: right;
+      }
+#transform {
+position: fixed;
+top: 350px;
+left: -10px;
+}
+
+#transform a, img {
+border: none;
+}
+
+nav {
+    background-color: #efe5d0;
+	margin: 10px 10px 0px 10px;
+}
+nav ul {
+	margin: 0px;
+	list-style-type: none;
+	padding: 5px 0px 5px 0px;
+}
+nav ul li {
+	display: inline;
+	padding: 5px 10px 5px 10px;
+}
+nav ul li a:link, nav ul li a:visited {
+	color: #954b4b;
+	border-bottom: none;
+	font-weight: bold;
+
+/*
+	text-shadow: 1px 1px 3px #e2c2c2; 
+	text-transform: uppercase;
+*/
+}
+nav ul li.selected {
+	background-color: #c8b99c;
 }
