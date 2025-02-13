@@ -6,7 +6,7 @@
      }
      
       h1, h2 {
-	  color: #007e7e;
+	  color: #778899;
       }
       h1 {
 	 /* border-bottom: 1px solid black;*/
@@ -17,14 +17,15 @@
       }
       h2 {
 	  font-size: 130%;
+	  padding-left: 30px;
       }
       body {
-	  background-color: #d2b48c;
+	  background-color: #F5F5F5;
 	  /*margin-left: 20%;
 	  margin-right: 20%;*/
 	  margin: 0px;
 	  /*border: 2px dotted black;*/
-	  padding: 10px 10px 10px 10px;
+	  padding: 30px 30px 30px 30px;
 	  font-size: small;
 	  font-family: Georgia, "Times New Roman", Times, serif;
 	  line-height: 1.6em;
@@ -37,13 +38,14 @@
 	  font-family: serif;
       }
       p {
-	  color: maroon;
+	  color: #000000;
+	  padding-left: 30px;
       }
       p.t_automation {
-	  color: green;
+	  color: #666464;
       }
       p.p_isolate {
-	  color: blue;
+	  color: #9FE2BF;
       }
       blockquote.cozy {
 	  color: purple;
@@ -56,7 +58,7 @@
 	  border-top-right-radius: 40px;
 	  border-bottom-right-radius: 40px;
 	  border-bottom-left-radius: 40px;
-	  background-color: #a7cece;
+	  background-color: #D3D3D3;
 	  padding: 25px;
 	  padding-left: 80px;
 	  margin: 30px;
@@ -69,24 +71,13 @@
 	  background-repeat: no-repeat;
 	  background-position: top left;
       }
-    /*  #work_life_posts{
-	  border-width: thin;
-	  border-style: solid;
-	  border-color: #007e7e;
-	  width: 700px;
-
-	  /*padding-right: 20px;
-	  padding-bottom: 20px;
-	  padding-left: 20px;
-	  padding: 0px 20px 20px 20px;*/
-	  padding: 20px;
-
-	  margin-left: 20px;
+      #work_life_posts{
+	
 	  text-align: left;
 
 	  line-height: 1;
 	  
-      }*/
+      }
       #work_life_posts h2{
 	  color: black;
       }
@@ -101,13 +92,13 @@
       }
 
       a:hover {
-	  background: #f88396;
+	  background: #FFF0F5;
 	  color: #0d5353;
       }
 
      aside {
 	  display: table-cell;
-	  background:       #efe5d0 url(images/background.gif) bottom right;
+	  background:       #C7A7A7 url(images/background.gif) bottom right;
 	  font-size:        105%;
 	  padding:          15px;
 	  vertical-align: top;
@@ -131,7 +122,7 @@ a:visited {
 }
 #tableContainer {
 	display: table;
-	border-spacing: 10px;
+	border-spacing: 0px;
 }
 
 #tableRow {
@@ -149,7 +140,7 @@ header {
 }*/
 section#previous_tech {
     display: table-cell;
-    background-color: #efe5d0;
+    background-color: #C7A7A7;
     width: 20%;
     padding: 15px;
     vertical-align: top;
@@ -157,18 +148,18 @@ section#previous_tech {
 
 section#main section, #work_life_posts{
   display: table-cell;
-  background:       #efe5d0 url(images/background.gif) top left;
+  background:       #C7A7A7 url(images/background.gif) top left;
   font-size:        105%;
   padding:          15px;
   vertical-align: top;
 }
 
       footer {
-	  background-color: #675c47;
-	  color: #efe5d0;
+	  background-color: #C7A7A7;
+	  color: #666464;
 	  text-align: center;
 	  padding: 15px;
-	  margin: 10px;
+	  margin: 0px;
 	  font-size: 90%;
 	  clear: right;
       }
@@ -183,20 +174,20 @@ border: none;
 }
 
 nav {
-    background-color: #efe5d0;
-	margin: 10px 10px 0px 10px;
+    background-color: #C7A7A7;
+	margin: 10px 0px 0px 0px;
 }
 nav ul {
 	margin: 0px;
 	list-style-type: none;
-	padding: 5px 0px 5px 0px;
+	padding: 5px 5px 5px 5px;
 }
 nav ul li {
 	display: inline;
 	padding: 5px 10px 5px 10px;
 }
 nav ul li a:link, nav ul li a:visited {
-	color: #954b4b;
+	color: #666464;
 	border-bottom: none;
 	font-weight: bold;
 
@@ -206,5 +197,39 @@ nav ul li a:link, nav ul li a:visited {
 */
 }
 nav ul li.selected {
-	background-color: #c8b99c;
+    background-color: #C0C0C0;
+    margin: 0px;
+}
+
+table {
+    margin-left: 20px;
+    margin-right: 20px;
+    border: thin solid black;
+    caption-side: bottom;
+    border-collapse: collapse;
+}
+td, th {
+border: thin dotted gray;
+padding: 5px;
+}
+     
+caption {
+font-style: italic;
+padding-top: 8px;
+}
+
+.center {
+  text-align:       center;
+}
+
+th {
+background-color: #FFF0F5;
+}
+
+.cellcolorkefir {
+background-color: #9CAF88;
+}
+
+.cellcolorkombucha {
+background-color: #BF5700;
 }

@@ -5,12 +5,15 @@
     <title>Test Moonlighter - the working life</title>
     <link type="text/css" rel="stylesheet" href="test_moon.css">
   </head>
-  <body>
-    <p>
-      <img src="images/tm_hello_logo.png" alt="tm_logo">
-    </p>
 
-    <h1>THE WORKING LIFE</h1>
+  
+  <body>
+    <header>
+      <img id="headerLogo"
+           src="images/pencil_bkg.jpeg" alt="Test Moonlighter header image" height="108" width="800">
+
+    </header>
+<h1>THE WORKING LIFE</h1>
 
     	<nav>
 	<ul>
@@ -20,9 +23,59 @@
 	</ul>
 	</nav>
 	
-    <section id="work_life_posts">
+	<div id="tableContainer">
+	<div id="tableRow">
+	<section id="previous_tech">
+		<h2>something here</h2>
+			<p>a</p>
+			<p>a</p>
+		<h2>something here</h2>
+			<p>a</p>
+			<p>a</p>
+	
+	</section>
+    <section id="main">
+      <h2>POSTS</h2>
+
+
+                 <article>
+	<header>
+	 <h2>Cozy testing</h2>
+	 <time datetime="2023-01-23">1/23/2023</time>
+	 </header>
+    <blockquote class="cozy">
+      Having some or any,<br>
+      test cases for a feature,<br>
+      is like having a warm and cozy blanket,<br>
+      for the new and older tester alike.<br>
+    </blockquote>
+
+	    </article>
+
+		       </article>
       <article>
-    <h2>Poem: Isolate</h2>
+	<header>
+	  <h2>Dr Jekyll and Ms Hyde</h2>
+	  <time datetime="2020-12-13">12/13/2020</time>
+	  </header>
+
+    <p>
+      <a href="html/optimus_prime.html">
+	<img src="thumbnails/optimus_prime_thm.jpeg" alt="An image of Optimus Prime">
+      </a>
+    </p>
+
+    <h3>Test Automation:</h3>
+    <p class="t_automation"> The brain gymnastics needed to toggle between  <q>trying to be an awesome tester</q> and  <q>keeping afloat being a good enough programmer</q>.</p>
+     </article>
+    </section>
+	    
+      
+      <article>
+	<header>
+	<h2>Poem: Isolate</h2>
+	<time datetime="2020-03-27">3/27/2020</time>
+	</header>
     <p class="p_isolate">Here is a poem I wrote while working from home during the pandemic of 2020:</p>
 
     <p>
@@ -35,31 +88,28 @@
       <img src="images/poem_stack_trace.png" alt="The stack trace the poem was based on" width="700">
     </p>
       </article>
-       <article>
-    <h2>Cozy testing</h2>
-    <blockquote class="cozy">
-      Having some or any,<br>
-      test cases for a feature,<br>
-      is like having a warm and cozy blanket,<br>
-      for the new and older tester alike.<br>
-    </blockquote>
 
-       </article>
-        <article>
-    <h2>Dr Jekyll and Ms Hyde</h2>
+ 
 
-    <p>
-      <a href="html/optimus_prime.html">
-	<img src="thumbnails/optimus_prime_thm.jpeg" alt="An image of Optimus Prime">
-      </a>
-    </p>
 
-    <h3>Test Automation:</h3>
-    <p class="t_automation"> The brain gymnastics needed to toggle between  <q>trying to be an awesome tester</q> and  <q>keeping afloat being a good enough programmer</q>.</p>
-     </article>
     </section>
 
-    <p>Go back to the <a href="index.html#writing" title="Link to Homepage">homepage</a>.</p>
-  </body>
+    <aside>
+      <p class="automationheading">
+        <h2>FERMENTATION TABLE</h2>
+      </p>
+<p>A table of my <a href="whats_fermenting.html" title="Link to page about my tools">fermentation </a>projects, because every desk worker needs an occupation that gets her away from the desk sometimes. And also because fermented foods are good for our gut.</p>      
+    </aside> <!-- sidebar -->
+	</div> <!-- tableRow -->
+	</div> <!-- tableContainer -->
 
+
+    <footer>
+      &copy; 2025, Test Moonlighter
+      <br>
+      All trademarks and registered trademarks appearing on 
+      this site are the property of their respective owners.
+    </footer>
+
+  </body>
 </html>
