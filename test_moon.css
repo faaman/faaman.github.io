@@ -33,6 +33,10 @@
       body.tech_used {
 	  background-color: #eaf3da;
       }
+      body.ferment {
+	  background-image: url('images/water_kefir.jpeg');
+	  background-size: contain;
+      }
       
       em {
 	  font-family: serif;
