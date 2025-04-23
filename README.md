@@ -1,2 +1,3 @@
 # faaman.github.io
-Majority of this code was written based on learning from the Head First HTML and CSS book. 
+Majority of this code was written based on learning along with the Head First HTML and CSS book. 
+I use Emacs as my code editor for this project because I have been wanting to use it ever since I came across the tool on Sacha Chua's blog. It has been slightly challenging as my other code editor VS Code is a full IDE and lets me see the folder structure, has auto-complete, and now AI capabilities, etc. But I would like to gain more expertise in using Emacs. 
