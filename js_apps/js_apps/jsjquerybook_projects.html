@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Test Moonlighter - JavaScript Examples</title>
+  <link type="text/css" rel="stylesheet" href="../test_moon.css" media="screen and (min-width: 481px)">
+</head>
+
+<body>
+    <h1>JavaScript Examples from JS books and other places</h1>
+      	<nav>
+	<ul>
+		<li><a href="../index.html">HOME</a></li>
+		<li><a href="../technologies_used.html">TOOLS AND TECHNOLOGIES</a></li>
+		<li class="selected"><a href="../work_life.html">THE WORKING LIFE</a></li>
+	</ul>
+	</nav>
+
+	<button onclick="loadScript('greeting.js')">Greeting</button>
+	<h3 id="output">The page before the greeting is loaded</h3>
+
+	<button onclick="loadScript('basic_function.js')">Basic Function</button>
+
+	<div id="message">Welcome to our site!</div>
+
+	<button onclick="loadScript('return_area.js')">Find Area</button>
+<!--This below has IMMEDIATELY INVOKED FUNCTION EXPRESSION -->
+    <p>Area of the square = <span id="find_area"><em>unkown</em></span></p>
+
+	<div id="message">Given 2 arrays of characters, print out any character that appears in both:</div>
+  <div id="message">a1 = {'c', 'a', 'b', 'c'}</div>
+  <div id="message">a2 = {'b', 'c', 'd'}</div>
+  
+  <div id="message">This solution displays all repeated characters regardless of repetition:</div>
+
+  <button onclick="loadScript('print_arr_char.js')">Print Char in Array</button>
+    <p>Common characters are = <span id="find_char"><em>unkown</em></span></p>
+    
+  <script>
+    
+    function loadScript(file) {
+      console.log('Attempting to load:', file); // Log the file being loaded
+
+      // Remove an existing script if already loaded
+      const existing = document.querySelector('script[data-example]');
+      if (existing) {
+        console.log('Removing existing script:', existing.src);
+        existing.remove();
+      }
+
+      // Create a new script element
+      const script = document.createElement('script');
+      script.src = file + '?v=' + Date.now(); // Cache-busting
+      script.setAttribute('data-example', '');
+      document.body.appendChild(script);
+
+      script.onload = () => console.log(`${file} loaded successfully!`);
+      script.onerror = () => console.error(`Error loading ${file}`);
+    }
+  </script>
+</body>
+
+</html>
