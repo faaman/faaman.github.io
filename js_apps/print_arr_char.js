@@ -7,8 +7,9 @@ var mychar = (function() {
     for (let i = 0; i < array1.length; i++) {
         for (let j = 0; j < array2.length; j++) {
             if (array1[i] === array2[j]) {
-                //console.log(`Common character: ${array1[i]}`);
+                console.log(`Common character: ${array1[i]}`);
                 result.push(array1[i]);  //function adds an element to end of an array
+                array2.splice(j, 1); // remove character from array2 to avoid duplicates
             }
         }
     }
